@@ -54,9 +54,9 @@ class LocationsViewModel: ObservableObject {
     func loadNextLocation() {
         if let currentLocationIndex = locations.firstIndex(of: currentLocation) {
             if currentLocationIndex + 1 < locations.count {
-                 currentLocation = locations[currentLocationIndex + 1]
+                showNewLocation(location: locations[currentLocationIndex + 1])
             } else {
-                currentLocation = locations[0]
+                showNewLocation(location: locations.first!)
             }
         }
     }
