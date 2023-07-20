@@ -18,4 +18,4 @@ List View
 ![List View](listView.png)
 
 Detail View
-![Detail View](detailview.png)
+![Detail View](detailView.png)
